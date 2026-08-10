@@ -3,17 +3,14 @@
 Creating a practice workflow repository
 =======================================
 
-As we did for the ``git`` practice lab, we'll be using GitHub
-to create the repository that you will use for the workflow
+As we did for the ``git`` practice lav, we'll be using GitHub
+classroom to create the repository that you will use for the workflow
 lab.  To get started, complete the following steps:
 
 **Step 1**
 
-Visit <https://github.com/orgs/uchicago-capp-camp-2026/repositories> and check if you have access to a repository named
-`workflow-lab-YOUR_USERNAME`.
+To create your workflow repository, click on the following URL `https://classroom.github.com/a/kwNdgjUS <https://classroom.github.com/a/kwNdgjUS>`__ and then accept the assignment.
 
-Since you've already accepted the organization invite, this should have been automatically created.
-Please let us know if you cannot find it.
 
 **Step 2**
 
@@ -25,7 +22,7 @@ In your ``~/capp-camp-files`` directory, clone your repository by running the fo
 
 ::
 
-   $ git clone git@github.com:uchicago-capp-camp-2026/workflow-lab-GITHUB_USERNAME.git
+   $ git clone git@github.com:uchicago-capp-camp-2025/workflow-lab-GITHUB_USERNAME.git
 
 where ``GITHUB_USERNAME`` is replaced by your GitHub username.
 
@@ -33,3 +30,15 @@ where ``GITHUB_USERNAME`` is replaced by your GitHub username.
 
 Change to your ``workflow-lab-GITHUB_USERNAME`` directory and the
 follow the instructions in ``README.md``.
+
+
+
+
+
+
+
+
+
+
+
+
