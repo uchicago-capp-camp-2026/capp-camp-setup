@@ -45,23 +45,13 @@ Step 1
 ~~~~~~
 
 As in the labs you completed during CAPP Camp, the first step is to
-accept an invitation from GitHub Classroom.  Here is the link to the
-invitation::
+access a repository we created via GitHub. 
 
-  https://classroom.github.com/a/jwWTKiha
+Visit <https://github.com/orgs/uchicago-capp-camp-2026/repositories> and check if you have access to a repository named
+`booster-1-YOUR_USERNAME`.
 
-Recall that you need to click the `Accept this assignment` button.
-Doing so will take you to a page that looks like this:
-
-.. figure:: booster1-img/classroom-1.png
-    :scale: 40%
-
-except that the GitHub repository link will show your GitHub username
-rather than ``ar0r-student``, the user name that Anne uses to see what
-students will see.
-
-**Do not click on the link!** We'll come back to this page later
-
+Since you've already accepted the organization invite, this should have been automatically created.
+Please let us know if you cannot find it.
 
 Step 2
 ~~~~~~
@@ -122,7 +112,7 @@ code.  To do so, run the following command:
 
 ::
 
-  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster1-upstream.git
+  $ git remote add upstream git@github.com:uchicago-capp-camp-2026/booster1-upstream.git
 
 You can verify that this command ran successfully using:
 
@@ -130,7 +120,7 @@ You can verify that this command ran successfully using:
 
   $ git config --get remote.upstream.url
 
-The result should be: ``git@github.com:uchicago-capp-camp-2025/booster1.git``.
+The result should be: ``git@github.com:uchicago-capp-camp-2026/booster1.git``.
 
 Once you have set the upstream link, you will be able to pull files
 from the upstream repository into your local repository.  To do so,
@@ -156,12 +146,12 @@ Step 7
 ~~~~~~
 
 The next step is to link your local repository with the GitHub
-repository created for you by GitHub Classroom.  Run
-the following command to make this connection:
+repository created for you.
+Run the following command to make this connection:
 
 ::
 
-  $ git remote add origin git@github.com:uchicago-capp-camp-2025/booster-1-GITHUB_USERNAME.git
+  $ git remote add origin git@github.com:uchicago-capp-camp-2026/booster-1-GITHUB_USERNAME.git
 
 Remember to replace :code:`GITHUB_USERNAME` with your GitHub username.
 
@@ -187,7 +177,7 @@ Finally, push the commit created in Step 6 to GitHub:
 
 To verify that this step worked properly, open a browser window to
 view
-``https://github.com/uchicago-capp-camp-2025/booster-1-GITHUB_USERNAME``
+``https://github.com/uchicago-capp-camp-2026/booster-1-GITHUB_USERNAME``
 where ``GITHUB_USERNAME`` is replaced by your GitHub username.  Do you
 see the expected files.  (If you are returning to a previously open
 browser window, you may have to reload the page to see the new files.)
@@ -506,7 +496,7 @@ and push your work.  Run ``git status`` to verify that you have
 committed all your work and pushed it to GitHub.
 
 Once that part is done, log into GradeScope and choose the CAPP Camp
-2025 course.  Click on the Booster #1 assignment and upload your
+2026 course.  Click on the Booster #1 assignment and upload your
 repository.
 
 If you pass all the tests, then you are done!  If not, please make
