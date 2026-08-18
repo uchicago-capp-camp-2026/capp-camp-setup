@@ -1,6 +1,6 @@
-.. _booster3:
+.. _booster2:
 
-CAPP Camp Booster #3: Working in Pairs and Resolving Merge Conflicts
+CAPP Camp Booster #2: Working in Pairs and Resolving Merge Conflicts
 ====================================================================
 
 In CAPP 30121, you will have a chance to work in pairs for some
@@ -44,7 +44,7 @@ your team name (as defined above).
 Once you create the team name and accept the assignment, you will land
 on a page similar to this one:
 
-.. figure:: booster3-img/classroom-1.png
+.. figure:: booster2-img/classroom-1.png
     :scale: 40%
 
 (Note: your results will show your team name instead of ``amr-borja``
@@ -74,9 +74,9 @@ a few minutes, while Person A sets up the repository.
 
 Person A should create a directory for their local copy of the
 repository.  The directory should be named
-``~/capp-camp-files/booster-3-TEAM_NAME``, where ``TEAM_NAME`` is
+``~/capp-camp-files/booster-2-TEAM_NAME``, where ``TEAM_NAME`` is
 replaced by the team's name (for example, ``amr`` would create a
-directory named ``~/capp-camp-files/booster-3-amr-borja``).
+directory named ``~/capp-camp-files/booster-2-amr-borja``).
 
 After creating the directory, Person A should use ``cd`` to navigate to it.
 
@@ -94,7 +94,7 @@ the starter code for this lab. To do so, run the following command:
 
 ::
 
-  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster3-upstream.git
+  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster2-upstream.git
   
 (Recall that we use ``$`` to signal the command-line prompt. It should not be included
 when you run the command.)
@@ -106,7 +106,7 @@ Use this command to verify that the upstream link was set properly:
   $ git config --get remote.upstream.url
 
 
-The result should be: ``git@github.com:uchicago-capp-camp-2025/booster3-upstream.git``.
+The result should be: ``git@github.com:uchicago-capp-camp-2025/booster2-upstream.git``.
 
 Now Person A should pull files from the upstream repository into the
 local repository. To do so, run:
@@ -128,7 +128,7 @@ Person A should run the following command to make this connection
 
 ::
 
-    $ git remote add origin git@github.com:uchicago-capp-camp-2025/booster-3-TEAM_NAME.git
+    $ git remote add origin git@github.com:uchicago-capp-camp-2025/booster-2-TEAM_NAME.git
 
 Remember to replace ``TEAM_NAME`` with the team's name.
 
@@ -149,7 +149,7 @@ Once that is done, Person A push the current commit to GitHub:
 
     $ git push -u origin main
     
-To verify that this step worked properly, either person can open a browser window to view https://github.com/uchicago-capp-camp-2025/booster-3-TEAM_NAME where TEAM_NAME is replaced by the team's name. Do you see the expected files? (If you are returning to a previously open browser window, you may have to reload the page to see the new files.)
+To verify that this step worked properly, either person can open a browser window to view https://github.com/uchicago-capp-camp-2025/booster-2-TEAM_NAME where TEAM_NAME is replaced by the team's name. Do you see the expected files? (If you are returning to a previously open browser window, you may have to reload the page to see the new files.)
 
 Also, Person A should run:
 
@@ -157,7 +157,7 @@ Also, Person A should run:
    
     $ git status
 
-in their ``booster-3-TEAM_NAME`` directory.
+in their ``booster-2-TEAM_NAME`` directory.
 
 The result should be:
 
@@ -184,12 +184,12 @@ Once they are in their ``camp-camp-files`` directory, Person B should run:
 
 ::
 
-   $ git clone git@github.com:uchicago-capp-camp-2025/booster-3-TEAM_NAME.git
+   $ git clone git@github.com:uchicago-capp-camp-2025/booster-2-TEAM_NAME.git
 
 where ``TEAM_NAME`` is replaced by the team's name.
 
 Person B should then use ``cd`` to navigate to their
-``booster-3-TEAM_NAME`` directory.
+``booster-2-TEAM_NAME`` directory.
 
 **Both members of the team should now have identical copies of the
 repository.  If not, please ask for help.**
@@ -288,7 +288,7 @@ Once the code is working, Person B should create a commit and push it
 to GitHub.
 
 Both partners should look at the repository on GitHub (see
-``https://github.com/uchicago-capp-camp-2025/booster-3-TEAM_NAME``,
+``https://github.com/uchicago-capp-camp-2025/booster-2-TEAM_NAME``,
 where ``TEAM_NAME`` is replaced by the team's name).
 
 They should see the changes that the team made.  If not, Person B
@@ -313,7 +313,7 @@ output of this command will be similar to:
    remote: Compressing objects: 100% (1/1), done.
    remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0 (from 0)
    Unpacking objects: 100% (3/3), 280 bytes | 5.00 KiB/s, done.
-   From github.com:uchicago-capp-camp-2025/booster-3-amr-borja
+   From github.com:uchicago-capp-camp-2025/booster-2-amr-borja
       47b89f9..d8db845  main       -> origin/main
    Updating 47b89f9..d8db845
    Fast-forward
@@ -350,9 +350,9 @@ will fail with an error of the form:
 
 
     $ git push
-    To github.com:ar0r/booster3.git
+    To github.com:ar0r/booster2.git
      ! [rejected]        main -> main (fetch first)
-    error: failed to push some refs to 'git@github.com:uchicago-capp-camp-2025/booster-3-amr-borja.git'
+    error: failed to push some refs to 'git@github.com:uchicago-capp-camp-2025/booster-2-amr-borja.git'
     hint: Updates were rejected because the remote contains work that you do
     hint: not have locally. This is usually caused by another repository pushing
     hint: to the same ref. You may want to first integrate the remote changes
@@ -445,7 +445,7 @@ message:
     remote: Compressing objects: 100% (1/1), done.
     remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0 (from 0)
     Unpacking objects: 100% (3/3), 293 bytes | 5.00 KiB/s, done.
-    From github.com:uchicago-capp-camp-2025/booster-3-amr-borja
+    From github.com:uchicago-capp-camp-2025/booster-2-amr-borja
        5ecd2a3..3caf9fb  main       -> origin/main
     Auto-merging scramble.py
     CONFLICT (content): Merge conflict in scramble.py
@@ -467,7 +467,7 @@ push his changes to GitHub.
 If Borja opens his copy of the file, ``scramble.py`` in an editor,
 he'll see:
 
-.. figure:: booster3-img/merge-1.png
+.. figure:: booster2-img/merge-1.png
    :scale: 40%
 
 This part:
@@ -515,21 +515,21 @@ and all of the line's related to ``amr``'s code:
 The result would be:
 
 
-.. figure:: booster3-img/merge-2.png
+.. figure:: booster2-img/merge-2.png
    :scale: 40%
 
 
 Alternatively, he could accept Anne's change by removing everything
 except Anne's print statement, in which case the result would be:
 
-.. figure:: booster3-img/merge-3.png
+.. figure:: booster2-img/merge-3.png
    :scale: 40%
 
 Or he could discard both changes and go back to the original message
 or use something different altogether:
 
 
-.. figure:: booster3-img/merge-4.png
+.. figure:: booster2-img/merge-4.png
    :scale: 40%
 
 Once Borja resolves the conflicts, he will make a new commit and push

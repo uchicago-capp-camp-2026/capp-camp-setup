@@ -30,7 +30,7 @@ This part contains links for the booster sessions:
 
 - :ref:`Booster #1 <booster1>`
 
-- :ref:`Booster #3 <booster3>`
+- :ref:`Booster #2 <booster2>`
 
 
 
@@ -63,5 +63,5 @@ This part contains links for the booster sessions:
    :maxdepth: 2
    :hidden:
 
-   booster3/booster3.rst
+   booster2/booster2.rst
    
