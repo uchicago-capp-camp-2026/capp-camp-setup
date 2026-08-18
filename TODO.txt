@@ -1,3 +1,8 @@
+## 2026
+ - upload final slide PDFs & update (grep 2025 & amr)
+ - fix booster 3
+
+
 -- check the SLIDE URLs and schedule a message for Ed
 
 -- Ed post:
@@ -5,12 +10,6 @@
  (1) How to forget a network
  (2) Link setup documents
  (3) A link to the slide PDF
-
-
-
-
-
-
 
 
 Day 1:
@@ -26,18 +25,3 @@ Day 2:
 Day 3:
    Slides:
      - See the speaker notes in each slide for other possible changes.
-
-   Lab:
-     - JPT added autograder with these four tests, glad to make changes
-        (1) that tests "air" on game.py,
-	(2) one that tests "aiiiiir" on game.py
-	(3) one that tests "aiiiiir" on game_repeats.py
-	(4) one that tests "boo" on game_repeats.py
-     - AMR: removed the last test, since it works for the first submission.
-
-
-
-
-   
-	
-   

@@ -10,7 +10,7 @@ is an ``ipython`` session that conputes the sum of the values between
 ::
 
     $ uv run ipython
-    Python 3.13.5 (main, Jul 23 2025, 00:18:28) [Clang 20.1.4 ]
+    Python 3.13.5 (main, Jul 23 2026, 00:18:28) [Clang 20.1.4 ]
     Type 'copyright', 'credits' or 'license' for more information
     IPython 9.5.0 -- An enhanced Interactive Python. Type '?' for help.
     Tip: Use `%timeit` or `%%timeit`, and the  `-r`, `-n`, and `-o` options to easily profile your code.
