@@ -18,9 +18,6 @@ Day 1:
   Linux Slides
     - Slide 54: Add URL for setup document
 
-  Setup:
-    - Zip file currently is in http://cs.uchicago.edu/~amr/capp-camp-files.zip.  Is there a better place to put it?
-
 Day 2:
   Slides:
     Slide 14 -- maybe we should move this file to follow slide 38 and then again
