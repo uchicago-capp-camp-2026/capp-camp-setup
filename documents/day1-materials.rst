@@ -20,22 +20,22 @@ will assume that they reside in your home directory.
 **Windows** In a WSL terminal window, run the following commands::
 
   $ cd
-  $ wget --no-check-certificate -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
+  $ wget --no-check-certificate -nv https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
   $ sudo apt install unzip
-  $ unzip capp-camp-2025.zip
+  $ unzip capp-camp-files.zip
 
 **Linux** In a terminal window, run the following commands::
 
   $ cd
-  $ wget -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
-  $ unzip capp-camp-2025.zip
+  $ wget -nv https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
+  $ unzip capp-camp-files.zip
 
 **macOS** 
 
 In a terminal window, run the following commands::
 
   $ cd
-  $ curl -O https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
-  $ unzip capp-camp-2025.zip
+  $ curl -O https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
+  $ unzip capp-camp-files.zip
   
 
