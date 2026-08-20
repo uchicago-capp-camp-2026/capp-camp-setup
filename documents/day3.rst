@@ -17,7 +17,7 @@ Also, please follow the instructions for :ref:`create_day3_repo`.
    :maxdepth: 2
    :hidden:
 
-   vscodium/vscodium.rst
+   vscodium/config.rst
 
    day3-classroom.rst
 
