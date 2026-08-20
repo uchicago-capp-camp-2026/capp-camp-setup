@@ -14,7 +14,7 @@ local machine so that you may have your own working environment for
 this and future classes (many of which will expect you to have access
 to a Linux system).
 
-To install WSL, open Powershell in administrator mode:
+To install WSL, open Powershell **in administrator mode**:
 
 .. figure:: wsl-img/wsl-1.png
 	    :scale: 60%
@@ -28,7 +28,7 @@ and type the following command::
 
 After running the command, make sure to **restart your machine**.
 
-After rebooting, open Powershell and run ``wsl --install Ubuntu-24.04``, this will install the version of Linux we'll be using.  After running this command, you may need to restart your machine again.
+After rebooting, open Powershell **in administrator mode** and run ``wsl --install Ubuntu-24.04``, this will install the version of Linux we'll be using.  After running this command, you may need to restart your machine again.
 
 Once this is complete, to run WSL, open Powershell and run the following command::
 
