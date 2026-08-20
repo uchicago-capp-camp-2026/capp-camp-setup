@@ -11,7 +11,7 @@ and the basics of a commonly-used code editor, named Visual Studio Code.
 Please work through the instructions in the following documents:
 
 - :ref:`terminal-app`
-- :ref:`vscode-about`
+- :ref:`vscodium-about`
 - :ref:`python_setup`
 - :ref:`day1-materials`  
 
@@ -26,7 +26,7 @@ Please work through the instructions in the following documents:
    :maxdepth: 2
    :hidden:
 
-   vscode/vscode.rst
+   vscodium/vscodium.rst
 
 .. toctree::
    :maxdepth: 2
@@ -34,12 +34,12 @@ Please work through the instructions in the following documents:
 
    uv/uv.rst
 
+   
+      
 .. toctree::
    :maxdepth: 2
    :hidden:
 
    day1-materials.rst
-   
-      
    
 

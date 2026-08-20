@@ -257,6 +257,8 @@ normal.
 
 If you are unable to set up your SSH key, please make sure to ask for help.
 
+.. _git-configure:
+
 Configuring git
 ---------------
 

@@ -9,18 +9,20 @@ a Linux or Linux-like environment and to use a command-line interface.
 Learning these skills will help you more be efficient in your CS course
 work and will be useful in internships and jobs.
 
-The purpose of this section is to help students who are using windows
+The purpose of this section is to help students who are using Windows
 to install the necessary software and to help everyone understand how
 to open a terminal.  Here are the OS-specific instructions:
 
 
-- **Windows** If you are using a Windows machine, you need to install the :ref:`Windows Subsystem for Linux <wsl-install>` and then open the ``wsl``   application.  
+- **Windows** If you are using a Windows machine, you need to install the :ref:`Windows Subsystem for Linux <wsl-install>` and then open the ``wsl``   application.  The
+  result will look something like this:
 
 .. figure:: ssh-img/wsl-terminal.png
 	    :scale: 40%	    
 
 
-
+.. _macos-terminal:
+   
 - **MacOS**: You can find instructions to open or quit the Terminal application on macOS `here
   <https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac>`__.  On macOS, the terminal will look something like this:
 
@@ -34,7 +36,7 @@ Since you will be using the terminal application frequently, we encourage you to
 .. figure:: ssh-img/linux-terminal.png
 	    :scale: 60%
 
-When you are done with this section, you should one terminal window open.
+When you are done with this section, you should have one terminal window open.
 
   
 

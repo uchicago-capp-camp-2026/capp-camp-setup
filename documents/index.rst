@@ -13,6 +13,7 @@ will use during CAPP Camp and in your fall Computer Science classes:
 - **Day 2** - This :ref:`section <day2-setup>` contains the setup instructions for the second day of CAPP Camp.
 - **Day 3** - This :ref:`section <day3-setup>` contains the setup instructions for the third day of CAPP Camp.  
 
+
 The setup documentation contains customized and updated versions of
 the material in the `UChicago CS Student Resource Guide
 <https://uchicago-cs.github.io/student-resource-guide/>`__ and
