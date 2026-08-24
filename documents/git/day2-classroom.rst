@@ -9,6 +9,8 @@ Accessing your practice repository
 To access the practice repository for today's exercise you will need to
 accept an invitation to join the course organization.
 
+**Step 1**
+
 First, check to see if you have a pending organization invite:
 
 <https://github.com/settings/organizations>
@@ -23,9 +25,24 @@ see a repository named ``git-lab-YOUR_USERNAME``.
 This should have been automatically created.
 If you do not see it, check <https://github.com/notifications> for another invitation to accept.
 
-Please ask for help if you run into any problems.
+**Step 2**
 
-You are finished with the setup for Day 2's lab once you can access ``git-lab-YOUR_USERNAME``.
+Once your repository has been created, Open a terminal/WSL window and then please navigate to your ``~/capp-camp-files`` directory.
+
+**Step 3**
+
+In your ``~/capp-camp-files`` directory, clone your repository by running the following command:
+
+::
+
+   $ git clone git@github.com:uchicago-capp-camp-2026/git-lab-GITHUB_USERNAME.git
+
+where ``GITHUB_USERNAME`` is replaced by your GitHub username.
+
+**Step 4**
+
+Change to your ``workflow-lab-GITHUB_USERNAME`` directory.
+
 
 Part 1 - Making a First Commit
 ------------------------------
