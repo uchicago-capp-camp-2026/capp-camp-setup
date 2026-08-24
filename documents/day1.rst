@@ -42,4 +42,9 @@ Please work through the instructions in the following documents:
 
    day1-materials.rst
    
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   day1-practice.rst
 

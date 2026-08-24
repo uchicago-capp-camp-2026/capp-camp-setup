@@ -1,6 +1,11 @@
 ## 2026
- - upload final slide PDFs & update (grep 2025 & amr)
- - fix booster 3
+  - move final README for third lab
+  - pull in things from last years Ed
+  - anne's image & republish
+
+  - unhide boosters
+  - upload final slide PDFs & update (grep 2025 & amr)
+  - finish booster 2 move
 
 
 -- check the SLIDE URLs and schedule a message for Ed
@@ -11,17 +16,3 @@
  (2) Link setup documents
  (3) A link to the slide PDF
 
-
-Day 1:
-
-  Linux Slides
-    - Slide 54: Add URL for setup document
-
-Day 2:
-  Slides:
-    Slide 14 -- maybe we should move this file to follow slide 38 and then again
-    after slide 42?
-
-Day 3:
-   Slides:
-     - See the speaker notes in each slide for other possible changes.

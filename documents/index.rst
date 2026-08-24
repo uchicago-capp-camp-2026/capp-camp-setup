@@ -1,8 +1,6 @@
 CAPP Camp
 =========
 
-
-
 Software Setup
 ==============
 
@@ -23,14 +21,12 @@ including Borja Sotomayor, James Turk, Anne Rogers, and numerous other
 instructors and teaching assistants over the years.
 
 
-Booster Sessions
-================
+.. Booster Sessions
+.. ================
 
-This part contains links for the booster sessions:
+.. - :ref:`Booster #1 <booster1>`
 
-- :ref:`Booster #1 <booster1>`
-
-- :ref:`Booster #2 <booster2>`
+.. - :ref:`Booster #2 <booster2>`
 
 
 
@@ -52,16 +48,16 @@ This part contains links for the booster sessions:
 
    day3.rst
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
+.. .. toctree::
+..    :maxdepth: 2
+..    :hidden:
 
-   booster1/booster1.rst
+..    booster1/booster1.rst
       
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
+.. .. toctree::
+..    :maxdepth: 2
+..    :hidden:
 
-   booster2/booster2.rst
+..    booster2/booster2.rst
    
