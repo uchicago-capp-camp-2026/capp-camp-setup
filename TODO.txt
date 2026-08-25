@@ -1,6 +1,4 @@
 ## 2026
-  - move final README for third lab
-  - pull in things from last years Ed
   - anne's image & republish
 
   - unhide boosters

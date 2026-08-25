@@ -13,11 +13,11 @@ when two people work on the same repository.
 Part 1: Creating a Pair Repository
 ----------------------------------
 
-The steps for creating a pair (or team) repository are different than
-the process of creating a solo repository.
-
 Choose Roles and Create a Team Name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For this assignment you will be creating a repository on your own, shared with
+your team member.
 
 Designate one person in the pair to be *Person A* and the other person
 to be *Person B*.
@@ -30,71 +30,70 @@ and B is Person B’s CNetID.  For example, if Person A's CNetID is
 
 *Please read the instructions carefully and complete only the steps assigned to your role and please complete them in the order specified.*
 
-Accept the invitations
-~~~~~~~~~~~~~~~~~~~~~~
+Create the Repository
+~~~~~~~~~~~~~~~~~~~~~
 
 **Person A Only**
 
-Follow the invitation for this assignment: `https://classroom.github.com/a/0g2TMgUJ <https://classroom.github.com/a/0g2TMgUJ>`__.
+Visit GitHub.com and click the `+` icon at the top of the page and select 'New repository'.
 
-You may be shown a list of existing teams, but you should **not**
-select a the team from the list.  Instead, create a new team using
-your team name (as defined above).
+.. figure:: booster2-img/01-new-repo.png
 
-Once you create the team name and accept the assignment, you will land
-on a page similar to this one:
+Set the Owner to 'uchicago-capp-camp-2026' organization, and the Repository name to `booster2-TEAM_NAME` according to the rule above (e.g. booster2-amr-borja).
+*Leave the other options as their defaults.*
 
-.. figure:: booster2-img/classroom-1.png
-    :scale: 40%
+.. figure:: booster2-img/02-create-repo.png
 
-(Note: your results will show your team name instead of ``amr-borja``
-in the name of the repository.)
+Invite Person B
+~~~~~~~~~~~~~~~
 
-You (Person A) can now move on :ref:`setup`.
+You (Person A) will have been redirected to a page for your new empty repository.
+
+You will need to go to Settings > Collaborators and Teams as shown below:
+
+.. figure:: booster2-img/03-settings.png
+
+Click 'Add People', and then type the GitHub username of your partner, Person B.
+You will be asked to select an role, choose the 'Maintain' option which will grant most permissions to your partner.
 
 **Person B Only**
 
-After their partner creates the team on GitHub classroom, Person B
-should follow the invitation link
-(`https://classroom.github.com/a/0g2TMgUJ
-<https://classroom.github.com/a/0g2TMgUJ>`__.), find their team name
-in the list, and then click join.  Once they've clicked join, Person B
-will land on a page similar the page shown above.
+After your partner creates the repository on GitHub, Person B will receive an
+invite. This should show up in your email and GitHub notifications, it can also be seen
+by navigating to the repository URL (Person A should be able to provide).
 
-
-.. _setup:
-
-Set up the Repository: Person A only
+Set up the Repository: Person B only
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**These steps are done only by Person A.**  Person B will have to wait for
+**These steps are done only by Person B.**  Person A will have to wait for
 a few minutes, while Person A sets up the repository.
+
+*In the future either person could do these steps, we are having Person B take the lead here to give both team members some practice.*
 
 **Create the directory and navigate to it**
 
-Person A should create a directory for their local copy of the
-repository.  The directory should be named
+Person B should create a directory for their local copy of the repository.
+The directory should be named
 ``~/capp-camp-files/booster-2-TEAM_NAME``, where ``TEAM_NAME`` is
 replaced by the team's name (for example, ``amr`` would create a
 directory named ``~/capp-camp-files/booster-2-amr-borja``).
 
-After creating the directory, Person A should use ``cd`` to navigate to it.
-
+After creating the directory, Person B should use ``cd`` to navigate to it.
 
 **Initialize the Repository**
 
-Person A should use ``pwd`` to make sure they are in the right place
+Person B should use ``pwd`` to make sure they are in the right place
 and then they should initialize a git repository in this directory.
 
 **Get the distribution**
 
-As in the previous two booster sessions, Person A will again connect
+As in previous sessions, Person B will connect
 this local repository to the upstream repository on GitHub that contains
 the starter code for this lab. To do so, run the following command:
 
 ::
 
-  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster2-upstream.git
+  $ git remote add upstream git@github.com:uchicago-capp-camp-2026/booster2-upstream.git
   
 (Recall that we use ``$`` to signal the command-line prompt. It should not be included
 when you run the command.)
@@ -106,9 +105,9 @@ Use this command to verify that the upstream link was set properly:
   $ git config --get remote.upstream.url
 
 
-The result should be: ``git@github.com:uchicago-capp-camp-2025/booster2-upstream.git``.
+The result should be: ``git@github.com:uchicago-capp-camp-2026/booster2-upstream.git``.
 
-Now Person A should pull files from the upstream repository into the
+Now Person B should pull files from the upstream repository into the
 local repository. To do so, run:
 
 ::
@@ -121,18 +120,18 @@ local copy of the repository.  It will also create a commit.
 
 **Connect the repository to GitHub**
 
-The next step is for Person A to link their local repository with the
+The next step is for Person B to link their local repository with the
 GitHub repository created for the team by GitHub Classroom.
 
-Person A should run the following command to make this connection
+Person B should run the following command to make this connection
 
 ::
 
-    $ git remote add origin git@github.com:uchicago-capp-camp-2025/booster-2-TEAM_NAME.git
+    $ git remote add origin git@github.com:uchicago-capp-camp-2026/booster-2-TEAM_NAME.git
 
 Remember to replace ``TEAM_NAME`` with the team's name.
 
-Person A can verify that they ran this command correctly by running:
+Person B can verify that they ran this command correctly by running:
 
 ::
 
@@ -143,15 +142,15 @@ end in ``.git``.
 
 **Pushing the initial commit**
 
-Once that is done, Person A push the current commit to GitHub:
+Once that is done, Person B push the current commit to GitHub:
 
 ::
 
     $ git push -u origin main
     
-To verify that this step worked properly, either person can open a browser window to view https://github.com/uchicago-capp-camp-2025/booster-2-TEAM_NAME where TEAM_NAME is replaced by the team's name. Do you see the expected files? (If you are returning to a previously open browser window, you may have to reload the page to see the new files.)
+To verify that this step worked properly, either person can open a browser window to view https://github.com/uchicago-capp-camp-2026/booster-2-TEAM_NAME where TEAM_NAME is replaced by the team's name. Do you see the expected files? (If you are returning to a previously open browser window, you may have to reload the page to see the new files.)
 
-Also, Person A should run:
+Also, Person B should run:
 
 ::
    
@@ -168,27 +167,28 @@ The result should be:
 
    nothing to commit, working tree clean
 
-If Person A's results matches this, then they are all set.
+If Person B's results matches this, then they are all set.
 
 
-Cloning the repository: Person B only
+Cloning the repository: Person A only
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**This step should be completed by Person B only.**  Person A will need to wait while Person B clones the repository.
+**This step should be completed by Person A only.**
+ Person B will need to wait while Person A clones the repository.
 
-Person B Should use ``cd`` to navigate to their ``capp-camp-files``
+Person A Should use ``cd`` to navigate to their ``capp-camp-files``
 directory and then use ``pwd`` to make sure they are in the right
 directory.
 
-Once they are in their ``camp-camp-files`` directory, Person B should run:
+Once they are in their ``camp-camp-files`` directory, Person A should run:
 
 ::
 
-   $ git clone git@github.com:uchicago-capp-camp-2025/booster-2-TEAM_NAME.git
+   $ git clone git@github.com:uchicago-capp-camp-2026/booster-2-TEAM_NAME.git
 
 where ``TEAM_NAME`` is replaced by the team's name.
 
-Person B should then use ``cd`` to navigate to their
+Person A should then use ``cd`` to navigate to their
 ``booster-2-TEAM_NAME`` directory.
 
 **Both members of the team should now have identical copies of the
@@ -288,7 +288,7 @@ Once the code is working, Person B should create a commit and push it
 to GitHub.
 
 Both partners should look at the repository on GitHub (see
-``https://github.com/uchicago-capp-camp-2025/booster-2-TEAM_NAME``,
+``https://github.com/uchicago-capp-camp-2026/booster-2-TEAM_NAME``,
 where ``TEAM_NAME`` is replaced by the team's name).
 
 They should see the changes that the team made.  If not, Person B
@@ -313,7 +313,7 @@ output of this command will be similar to:
    remote: Compressing objects: 100% (1/1), done.
    remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0 (from 0)
    Unpacking objects: 100% (3/3), 280 bytes | 5.00 KiB/s, done.
-   From github.com:uchicago-capp-camp-2025/booster-2-amr-borja
+   From github.com:uchicago-capp-camp-2026/booster-2-amr-borja
       47b89f9..d8db845  main       -> origin/main
    Updating 47b89f9..d8db845
    Fast-forward
@@ -352,7 +352,7 @@ will fail with an error of the form:
     $ git push
     To github.com:ar0r/booster2.git
      ! [rejected]        main -> main (fetch first)
-    error: failed to push some refs to 'git@github.com:uchicago-capp-camp-2025/booster-2-amr-borja.git'
+    error: failed to push some refs to 'git@github.com:uchicago-capp-camp-2026/booster-2-amr-borja.git'
     hint: Updates were rejected because the remote contains work that you do
     hint: not have locally. This is usually caused by another repository pushing
     hint: to the same ref. You may want to first integrate the remote changes
@@ -445,7 +445,7 @@ message:
     remote: Compressing objects: 100% (1/1), done.
     remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0 (from 0)
     Unpacking objects: 100% (3/3), 293 bytes | 5.00 KiB/s, done.
-    From github.com:uchicago-capp-camp-2025/booster-2-amr-borja
+    From github.com:uchicago-capp-camp-2026/booster-2-amr-borja
        5ecd2a3..3caf9fb  main       -> origin/main
     Auto-merging scramble.py
     CONFLICT (content): Merge conflict in scramble.py

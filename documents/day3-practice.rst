@@ -1,7 +1,7 @@
 .. _create_day3_repo:
 
-Workflow Practice Lab
-======================
+Day 3 Workflow Lab
+============================
 
 Checking Out Your Repository
 ----------------------------

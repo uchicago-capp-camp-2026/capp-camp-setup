@@ -1,5 +1,5 @@
-Filesystem Lab
-==============
+Day 1 Filesystem Lab
+====================
 
 For this lab, you will be practicing manipulating files on the
 filesystem using the terminal.

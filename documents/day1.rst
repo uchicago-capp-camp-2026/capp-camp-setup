@@ -1,7 +1,7 @@
 .. _day1-setup:
 
-CAPP Camp: Day 1 Setup
-======================
+Day 1 Setup
+============
 
 This page contains instructions for setting up the software that you
 will use during Day 1 of CAPP Camp.  The first day will focus on
@@ -15,7 +15,6 @@ Please work through the instructions in the following documents:
 - :ref:`python_setup`
 - :ref:`day1-materials`  
 
-
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -27,24 +26,6 @@ Please work through the instructions in the following documents:
    :hidden:
 
    vscodium/vscodium.rst
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
    uv/uv.rst
-
-   
-      
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
    day1-materials.rst
-   
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   day1-practice.rst
-
+  
