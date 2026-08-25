@@ -1,8 +1,9 @@
-.. _create_day2_repo:
+.. _day2_practice:
+.. 
+Day 2 Git Lab
+======================
 
-Git Practice Lab
-==================
-
+.. 
 Accessing your practice repository
 ----------------------------------
 
@@ -41,7 +42,7 @@ where ``GITHUB_USERNAME`` is replaced by your GitHub username.
 
 **Step 4**
 
-Change to your ``workflow-lab-GITHUB_USERNAME`` directory.
+Change to your ``git-lab-GITHUB_USERNAME`` directory.
 
 
 Part 1 - Making a First Commit
@@ -112,7 +113,6 @@ Use ``git log`` to discover the hash for the commit labeled "part 1 done" and ad
 You can also try this using the GitHub interface which offers an alternative interface to view the log:
 
 .. figure:: git-img/log.png
-	    :scale: 90%	    
 
 
 Part 6 -- Push your changes to GitHub

@@ -21,43 +21,17 @@ including Borja Sotomayor, James Turk, Anne Rogers, and numerous other
 instructors and teaching assistants over the years.
 
 
-.. Booster Sessions
-.. ================
-
-.. - :ref:`Booster #1 <booster1>`
-
-.. - :ref:`Booster #2 <booster2>`
-
-
-
 .. toctree::
    :maxdepth: 2
    :hidden:
 
    day1.rst
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
+   day1-practice.rst
    day2.rst
-   
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
+   day2-practice.rst
    day3.rst
-
-.. .. toctree::
-..    :maxdepth: 2
-..    :hidden:
+   day3-practice.rst
 
 ..    booster1/booster1.rst
-      
-
-.. .. toctree::
-..    :maxdepth: 2
-..    :hidden:
-
 ..    booster2/booster2.rst
    
