@@ -1,9 +1,9 @@
 .. _day2_practice:
-.. 
+
 Day 2 Git Lab
 ======================
 
-.. 
+
 Accessing your practice repository
 ----------------------------------
 
@@ -112,7 +112,7 @@ Use ``git log`` to discover the hash for the commit labeled "part 1 done" and ad
 
 You can also try this using the GitHub interface which offers an alternative interface to view the log:
 
-.. figure:: git-img/log.png
+.. figure:: git/git-img/log.png
 
 
 Part 6 -- Push your changes to GitHub

@@ -43,7 +43,7 @@ Set the Owner to 'uchicago-capp-camp-2026' organization, and the Repository name
 *Leave the other options as their defaults.*
 
 .. figure:: booster2-img/02-create-repo.png
-..
+
 Invite Person B
 ~~~~~~~~~~~~~~~
 
