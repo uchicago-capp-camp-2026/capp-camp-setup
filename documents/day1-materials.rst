@@ -20,14 +20,14 @@ will assume that they reside in your home directory.
 **Windows** In a WSL terminal window, run the following commands::
 
   $ cd
-  $ wget --no-check-certificate -nv https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
+  $ wget --no-check-certificate -nv http://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
   $ sudo apt install unzip
   $ unzip capp-camp-files.zip
 
 **Linux** In a terminal window, run the following commands::
 
   $ cd
-  $ wget -nv https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
+  $ wget -nv http://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
   $ unzip capp-camp-files.zip
 
 **macOS** 
@@ -35,7 +35,7 @@ will assume that they reside in your home directory.
 In a terminal window, run the following commands::
 
   $ cd
-  $ curl -O https://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
+  $ curl -O http://people.cs.uchicago.edu/~jturk/capp-camp-files.zip
   $ unzip capp-camp-files.zip
   
 

@@ -21,7 +21,7 @@ If this page already lists the uchicago-capp-camp organization, there is nothing
 If you have neither, please let us know.
 
 Next, visit <https://github.com/orgs/uchicago-capp-camp-2026/repositories> and ensure that you can
-see a repository named ``git-lab-YOUR_USERNAME``.
+see a repository named ``intro-git-lab-YOUR_USERNAME``.
 
 This should have been automatically created.
 If you do not see it, check <https://github.com/notifications> for another invitation to accept.
@@ -36,13 +36,13 @@ In your ``~/capp-camp-files`` directory, clone your repository by running the fo
 
 ::
 
-   $ git clone git@github.com:uchicago-capp-camp-2026/git-lab-GITHUB_USERNAME.git
+   $ git clone git@github.com:uchicago-capp-camp-2026/intro-git-lab-GITHUB_USERNAME.git
 
 where ``GITHUB_USERNAME`` is replaced by your GitHub username.
 
 **Step 4**
 
-Change to your ``git-lab-GITHUB_USERNAME`` directory.
+Change to your ``intro-git-lab-GITHUB_USERNAME`` directory.
 
 
 Part 1 - Making a First Commit
@@ -82,7 +82,7 @@ Be sure to commit your changes! Run the command ``uv run python check.py 3`` to 
 Part 4 -- Push your changes to GitHub
 --------------------------------------
 
-Have a look at your repository on GitHub.  Open a browser window to: ``https://github.com/uchicago-capp-camp-2026/git-lab-GITHUB_USERNAME``, where ``GITHUB_USERNAME`` is replaced by **your** GitHub username.  Do you see your changes?  No!  Why?
+Have a look at your repository on GitHub.  Open a browser window to: ``https://github.com/uchicago-capp-camp-2026/intro-git-lab-GITHUB_USERNAME``, where ``GITHUB_USERNAME`` is replaced by **your** GitHub username.  Do you see your changes?  No!  Why?
 
 Now use the ``git status`` command to verify that all your changes have been committed.  
 
