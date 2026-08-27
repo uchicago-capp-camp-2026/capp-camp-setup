@@ -52,7 +52,7 @@ Like yesterday's lab, today's lab will ask you to take some steps with git and r
 
 Whenever you have made a change that you wish to keep, you'll make a git commit.
 
-Open up ``part1.txt`` using ``code``, answer the questions, and save the file!
+Open up ``part1.txt`` using ``codium``, answer the questions, and save the file!
 
 **NOTE**: Forgetting to save your changes in the editor is a common mistake. Remember to save in VS Codium!
 
