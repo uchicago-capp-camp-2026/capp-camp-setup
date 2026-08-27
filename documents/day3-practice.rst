@@ -13,7 +13,7 @@ lab.  To get started, complete the following steps:
 **Step 1**
 
 Visit <https://github.com/orgs/uchicago-capp-camp-2026/repositories> and check if you have access to a repository named
-`workflow-lab-YOUR_USERNAME`.
+`python-lab-YOUR_USERNAME`.
 
 Since you've already accepted the organization invite, this should have been automatically created.
 Please let us know if you cannot find it.
@@ -28,13 +28,13 @@ In your ``~/capp-camp-files`` directory, clone your repository by running the fo
 
 ::
 
-   $ git clone git@github.com:uchicago-capp-camp-2026/workflow-lab-GITHUB_USERNAME.git
+   $ git clone git@github.com:uchicago-capp-camp-2026/python-lab-GITHUB_USERNAME.git
 
 where ``GITHUB_USERNAME`` is replaced by your GitHub username.
 
 **Step 4**
 
-Change to your ``workflow-lab-GITHUB_USERNAME`` directory.
+Change to your ``python-lab-GITHUB_USERNAME`` directory.
 
 Python Workflow Lab
 ---------------------
@@ -87,7 +87,7 @@ Setup
 -----
 
 Before you get started on finding the errors, you should run ``uv sync``
-in your ``workflow-lab`` directory to install the *dependencies*, that
+in your ``python-lab`` directory to install the *dependencies*, that
 is, the Python tools and libraries that you need to do this lab.
 
 Once you have done the ``uv sync``, you will want to change to the
@@ -105,7 +105,7 @@ look at the first error you get:
 ::
 
    $ uv run python game.py
-     File "/home/jturk/capp-camp-workflow-lab/game.py", line 24
+     File "/home/jturk/capp-camp-python-lab/game.py", line 24
        revealed = ["_", "_", "_"
                   ^
    SyntaxError: '[' was never closed
@@ -221,7 +221,7 @@ Gradescope access to your GitHub account:
 Follow the instructions to connect the two.
 
 Once you have done so, you will be able to submit. Choose your
-``workflow-lab-GITHUB_USERNAME`` repository in the repository dropdown
+``python-lab-GITHUB_USERNAME`` repository in the repository dropdown
 and ``main`` in the branch dropdown and then click Upload:
 
 |image5|
