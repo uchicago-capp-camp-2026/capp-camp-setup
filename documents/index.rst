@@ -32,6 +32,6 @@ instructors and teaching assistants over the years.
    day3.rst
    day3-practice.rst
 
-..    booster1/booster1.rst
+   booster1/booster1.rst
 ..    booster2/booster2.rst
    

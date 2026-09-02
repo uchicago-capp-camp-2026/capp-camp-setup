@@ -48,7 +48,7 @@ As in the labs you completed during CAPP Camp, the first step is to
 access a repository we created via GitHub. 
 
 Visit <https://github.com/orgs/uchicago-capp-camp-2026/repositories> and check if you have access to a repository named
-`booster-1-YOUR_USERNAME`.
+`booster1-YOUR_USERNAME`.
 
 Since you've already accepted the organization invite, this should have been automatically created.
 Please let us know if you cannot find it.
@@ -66,7 +66,7 @@ work on this booster:
 
 ::
 
-   $ mkdir -p ~/capp-camp-files/booster-1-GITHUB_USERNAME
+   $ mkdir -p ~/capp-camp-files/booster1-GITHUB_USERNAME
 
 Make sure to replace ``GITHUB_USERNAME`` with your GitHub username!
 
@@ -81,12 +81,12 @@ Change to the new directory:
 
 ::
 
-   $ cd ~/capp-camp-files/booster-1-GITHUB_USERNAME
+   $ cd ~/capp-camp-files/booster1-GITHUB_USERNAME
 
 (Remember to use tab completion to reduce typing.)
    
 Before you move on to the next step, use ``pwd`` to verify that you
-are in your ``capp-camp-files/booster-1-GITHUB_USERNAME`` directory.
+are in your ``capp-camp-files/booster1-GITHUB_USERNAME`` directory.
 
 Please do not move on to the next step unless you are in the correct
 directory.  Please ask for help, if you are having trouble navigating
@@ -151,7 +151,7 @@ Run the following command to make this connection:
 
 ::
 
-  $ git remote add origin git@github.com:uchicago-capp-camp-2026/booster-1-GITHUB_USERNAME.git
+  $ git remote add origin git@github.com:uchicago-capp-camp-2026/booster1-GITHUB_USERNAME.git
 
 Remember to replace :code:`GITHUB_USERNAME` with your GitHub username.
 
@@ -177,7 +177,7 @@ Finally, push the commit created in Step 6 to GitHub:
 
 To verify that this step worked properly, open a browser window to
 view
-``https://github.com/uchicago-capp-camp-2026/booster-1-GITHUB_USERNAME``
+``https://github.com/uchicago-capp-camp-2026/booster1-GITHUB_USERNAME``
 where ``GITHUB_USERNAME`` is replaced by your GitHub username.  Do you
 see the expected files.  (If you are returning to a previously open
 browser window, you may have to reload the page to see the new files.)
@@ -186,7 +186,7 @@ Also, run::
 
   $ git status .
 
-in your ``booster-1-GITHUB_USERNAME`` directory.  The result
+in your ``booster1-GITHUB_USERNAME`` directory.  The result
 should be::
 
   On branch main
@@ -407,7 +407,7 @@ command-line argument.  Here is an example use:
 
 ::
 
-  $ uv run python play_round_test.py 3
+  $ uv run python test_play_round.py 3
   Test with num_dice: 3
   score from round: 2
 
