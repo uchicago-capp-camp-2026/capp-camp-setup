@@ -1,3 +1,5 @@
+.. _filesystem-practice:
+
 Day 1 Filesystem Lab
 ====================
 

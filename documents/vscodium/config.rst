@@ -43,14 +43,17 @@ contains instructions on how to to change to a different theme.
 Open the command palette using the the keyboard shortcut Ctrl-Shift-P
 (or Cmd-Shift-P on MacOS).  Once it is open, you can just start typing
 the name of a command.  Type in the word ``color`` and you will be
-offered several options. Choose: ``Preferences: Color Theme`` and then
-choose whichever option you prefer.
+offered several options. Choose: ``Preferences: Color Theme``:
 
 .. figure:: codium-img/theme1.png
 	    :scale: 70%	    
 
 
-TODO: add figure with the color theme options.
+and then choose whichever option you prefer:
+
+.. figure:: codium-img/theme2.png
+	    :scale: 40%	
+
 
 Spaces, Tabs, etc
 ~~~~~~~~~~~~~~~~~
